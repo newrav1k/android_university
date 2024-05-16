@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         }
         if (v.getId() == R.id.github_button) {
-            Uri uri = Uri.parse("https://github.com/newrav1k/Android_devOps/tree/master/android_2_6");
+            Uri uri = Uri.parse("https://github.com/newrav1k/android_university/tree/master/practice_2_6");
             Log.d("Click", "Выполняется переход на гит");
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
