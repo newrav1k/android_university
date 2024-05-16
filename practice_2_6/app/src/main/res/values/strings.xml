@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">android_2_6</string>
+    <string name="user_name">Крицкий Кирилл РИБО-04-22</string>
+    <string name="start_button">Старт!</string>
+    <string name="result_button">Перемножить числа</string>
+    <string name="back_button">Вернуться назад</string>
+    <string name="first_number">Первое число</string>
+    <string name="second_number">Второе число</string>
+    <string name="third_number">Третье число</string>
+    <string name="cat_description">Очень смышленный кот</string>
+    <string name="github_url">https://github.com/newrav1k/android_homework/tree/master/android_2_6</string>
+    <string name="github_message">Открыть проект на github</string>
+    <string name="start_menu">Стартовое меню</string>
+    <string name="variant">Вариант 1: Разработать Android-приложение, вычисляющее произведение 3 чисел.</string>
+</resources>
