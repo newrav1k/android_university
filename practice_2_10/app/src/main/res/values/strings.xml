@@ -21,8 +21,10 @@
 
     <string name="yes">Да</string>
     <string name="no">Нет</string>
+    <string name="confirm">Подтвердить</string>
 
     <string name="empty_field">Поля не должны быть пустыми!</string>
     <string name="an_error_occurred_while_recording">Произошла ошибка во время записи!</string>
     <string name="recording_successfully_saved">Запись успешно сохранена!</string>
+    <string name="are_you_sure_you_want_to_clear_the_database">Вы уверены, что хотите очистить базу данных?</string>
 </resources>

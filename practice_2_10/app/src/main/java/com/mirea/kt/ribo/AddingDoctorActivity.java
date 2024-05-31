@@ -9,7 +9,9 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.mirea.kt.ribo.database.DBManager;
 import com.mirea.kt.ribo.database.MyAppSQLiteHelper;
@@ -25,6 +27,15 @@ public class AddingDoctorActivity extends AppCompatActivity {
         setContentView(R.layout.activity_adding_doctor);
 
         dbManager = new DBManager(new MyAppSQLiteHelper(getApplicationContext(), "doctors.db", null, 1));
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        ActionBar actionBar = getSupportActionBar();
+
+        if (actionBar != null) {
+            actionBar.setHomeButtonEnabled(true);
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
 
         EditText doctor_name = findViewById(R.id.name);
         EditText doctor_surname = findViewById(R.id.surname);

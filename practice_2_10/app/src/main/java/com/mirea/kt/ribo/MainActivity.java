@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
         start_button.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), DoctorsActivity.class)));
         github_button.setOnClickListener(v -> {
-            Uri uri = Uri.parse("https://github.com/newrav1k/Android_devOps/tree/master/android_2_10");
+            Uri uri = Uri.parse("https://github.com/newrav1k/android_university/tree/master/practice_2_10");
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
         });
