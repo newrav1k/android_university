@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Домашняя работа №2.10</string>
+    <string name="developer">Крицкий Кирилл РИБО–04–22</string>
+    <string name="task">3 Вариант: Разработать Android-приложение для сохранения в базу данных SQLite информации о докторах</string>
+    <string name="start_button">Старт!</string>
+    <string name="github_message">Открыть проект на github</string>
+
+    <string name="doctor_name">Имя доктора</string>
+    <string name="doctor_surname">Фамилия доктора</string>
+    <string name="doctor_speciality">Специальность доктора</string>
+    <string name="doctor_isCertification">Прошёл ли доктор аттестацию? </string>
+
+    <string name="add_doctor">Добавить информацию о докторе</string>
+    <string name="adding_doctor">Добавление доктора</string>
+    <string name="show_all_doctors">Показать список докторов</string>
+    <string name="update_list_of_doctors">Обновить список докторов</string>
+    <string name="list_of_doctors">Список докторов</string>
+
+    <string name="delete_doctor">Удалить доктора</string>
+    <string name="clear_database">Очистить базу данных</string>
+
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="empty_field">Поля не должны быть пустыми!</string>
+    <string name="an_error_occurred_while_recording">Произошла ошибка во время записи!</string>
+    <string name="recording_successfully_saved">Запись успешно сохранена!</string>
+</resources>
